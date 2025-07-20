@@ -92,7 +92,7 @@ class RoarCompetitionSolution:
         # NOTE waypoints are changed through this line
         self.maneuverable_waypoints = (
             roar_py_interface.RoarPyWaypoint.load_waypoint_list(
-                np.load(f"{os.path.dirname(__file__)}\\waypoints\\waypointsPrimary.npz")
+                np.load(f"{os.path.dirname(__file__)}\\waypoints\\waypointsFinal.npz")
             )[35:]
         )
 
